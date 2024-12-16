@@ -27,7 +27,7 @@ const Counter = (props) => {
   return (
     <div className="border p-2 border-black">
       {console.log('render')}
-      <h2 className="count">count123:{count}</h2>
+      <h2 className="count">count12345:{count}</h2>
       <button className="button" onClick={atClick}>
         increment
       </button>
